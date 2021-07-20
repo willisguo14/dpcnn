@@ -6,3 +6,4 @@
 4. `model.py` - train DP-CNN model
 
 docker: `docker pull willisguo/dp-cnn:finished`
+- implementation in `/root/DP-CNN`
