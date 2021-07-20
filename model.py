@@ -40,14 +40,6 @@ model = tf.keras.Sequential([
 
 print(model.summary())
 
-#* test run 
-# input_test = vecs[:2]
-# print(input_test)
-# print(np.shape(input_test))
-# output_test = model.predict(input_test)
-# print(output_test)
-# print(np.shape(output_test))
-
 #* compile model
 metrics = [
     tf.keras.metrics.BinaryAccuracy(name='accuracy'),
