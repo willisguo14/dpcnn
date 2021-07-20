@@ -1,0 +1,6 @@
+data.npz
+accuracy.png
+*.json
+SARD_testcaseinfo.xml
+*/*
+.DS_Store
